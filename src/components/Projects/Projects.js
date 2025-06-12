@@ -34,6 +34,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="DriveIt"
+              description="A Next.js-based cloud storage platform where users can upload, categorize, rename, delete, and share files. It features a professional dashboard to manage storage efficiently, similar to Google Drive with enhanced collaboration features"
+              ghLink="https://github.com/Bkishun/drive-it"
+              demoLink="https://drive-it-xi.vercel.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
               title="Social-media"
@@ -53,6 +64,7 @@ function Projects() {
               demoLink=""              
             />
           </Col>
+
 
         </Row>
       </Container>
